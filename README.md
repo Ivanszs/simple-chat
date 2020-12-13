@@ -9,4 +9,4 @@
   
     npm run devStart
     
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Glvpa4JjdaY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![simple chat showcase](http://img.youtube.com/vi/Glvpa4JjdaY/0.jpg)](http://www.youtube.com/watch?v=Glvpa4JjdaY "simple chat showcase")
