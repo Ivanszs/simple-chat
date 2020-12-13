@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  position:relative
+  display: block;
+  font-family: 'Russo One', sans-serif;
+  margin: 20px
+}
+
+#message-container {
+  width: 50%;
+  max-width: 1200px;
+}
+
+#message-container div {
+  background-color: #CCC;
+  padding: 5px;
+  font-family: 'Russo One', sans-serif;
+  animation:ease-in;
+  position: relative;
+  margin: .5em auto;
+  padding: 1em;
+  width: 30em; height: 1.5em;
+  border-radius: .25em;
+  background: #8dffca;
+  animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+#message-container div:before {
+  border: solid 0 transparent;
+  border-right: solid 3.5em #f4fbfe;
+  border-bottom: solid .25em #629bdd;
+  bottom: .25em; left: 1.25em;
+  width: 10em; 
+  height: 1em;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: rgb(181, 255, 108);
+}
+
+#send-container {
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  max-width: 1200px;
+  width: 80%;
+  display: flex;
+}
+
+#message-input {
+  flex-grow: 1;
+  background-color: rgb(158, 255, 60);
+  font-family: 'Russo One', sans-serif;
+}
+
+#send-button {
+  font-family: 'Russo One', sans-serif;
+  background-color:#a2fffa;
+}
