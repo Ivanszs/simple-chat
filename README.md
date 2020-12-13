@@ -9,4 +9,5 @@
   
     npm run devStart
     
-[![simple chat showcase](http://img.youtube.com/vi/Glvpa4JjdaY/0.jpg)](http://www.youtube.com/watch?v=Glvpa4JjdaY"simple chat showcase")
+[![simple chat showcase](http://img.youtube.com/vi/Glvpa4JjdaY/0.jpg)](http://www.youtube.com/watch?v=Glvpa4JjdaY "simple chat showcase")
+http://www.youtube.com/watch?v=Glvpa4JjdaY
